@@ -6,8 +6,6 @@ APP
         templateUrl: 'html/content.html',
         //template: TPL.content,
         link: function($scope, $element, $attributes) {
-            $scope.cool = 'footer content';
-
         } 
      } 
  }])
@@ -19,15 +17,6 @@ APP
         templateUrl: 'html/header.html',
         //template: TPL.content,
         link: function($scope, $element, $attributes) {
-            $scope.someData = [
-                { 'name' : 'dude' },
-                { 'name' : 'dude' },
-                { 'name' : 'dude' },
-                { 'name' : 'dude' },
-                { 'name' : 'dude' },
-                { 'name' : 'dude' },
-                { 'name' : 'dude' }
-            ]
          }
       } 
  }])
@@ -39,6 +28,17 @@ APP
         templateUrl: 'html/footer.html',
         //template: TPL.content,
         link: function($scope, $element, $attributes) {
+            $scope.cool = 'footer content';
+
+            $scope.someData = [
+                { 'name' : 'dude' },
+                { 'name' : 'dude' },
+                { 'name' : 'dude' },
+                { 'name' : 'dude' },
+                { 'name' : 'dude' },
+                { 'name' : 'dude' },
+                { 'name' : 'dude' }
+            ]
          }
       } 
  }])
