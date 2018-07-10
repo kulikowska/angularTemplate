@@ -1,0 +1,50 @@
+@font-face {
+  font-family: raleway;
+  src: url("fonts/raleway/webfonts/raleway_thin-webfont.woff");
+}
+body {
+  font-family: raleway;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background: #222;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+a {
+  color: #6a9ad9;
+  transition: 100ms;
+  font-size: 20px;
+}
+a:hover {
+  color: #bbd1ee;
+}
+#header {
+  width: 100%;
+  min-height: 45%;
+  float: left;
+  background-size: cover;
+  background-image: url('../images/northern_lights_cropped.jpg');
+  position: relative;
+}
+#header .overLay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.01), #000000);
+}
+#contentWrap {
+  background: #030303;
+  min-height: 45%;
+  width: 100%;
+  float: left;
+}
+#footer {
+  width: 100%;
+  background: #2b2234;
+  float: left;
+  height: 10%;
+}
